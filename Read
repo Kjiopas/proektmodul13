@@ -1,0 +1,52 @@
+# 🚗 ITRent - Car Rental Platform
+
+ITRent is a web-based car rental system built with **ASP.NET Core MVC** and **Entity Framework Core**. Users can browse, book, and manage rental cars, while administrators can manage reservations and monitor user activity.
+
+---
+
+## 🌐 Live Preview
+
+> _Coming soon..._
+
+---
+
+## 🛠️ Tech Stack
+
+- **ASP.NET Core MVC**
+- **Entity Framework Core (EF Core)**
+- **Microsoft SQL Server / LocalDB**
+- **ASP.NET Identity (Authentication & Authorization)**
+- **Bootstrap 5**
+- **Font Awesome**
+
+---
+
+## 📦 Features
+
+- 🔐 User registration & login
+- 🧑‍💼 Role-based access (Admin & User)
+- 🚗 Browse and book cars
+- 📅 Create and manage reservations
+- ✅ Admins can approve/reject reservations
+- 📜 Status tracking: Pending, Approved, Completed, Rejected
+- 💬 User-friendly UI with responsive design
+
+---
+
+## 📂 Project Structure
+
+entACar/ │ ├── Controllers/ # MVC Controllers (Cars, Reservations, Account) ├── Models/ # Entity models (Car, Reservation, User) ├── Views/ # Razor views │ ├── Cars/ │ ├── Reservations/ │ └── Shared/ ├── Data/ # DbContext and seed data ├── wwwroot/ # Static files (CSS, JS, images) ├── Program.cs # App entry point └── appsettings.json # Configuration (DB connection string, etc.)
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 📌 Prerequisites
+
+- [.NET 5](https://dotnet.microsoft.com/en-us/download)
+- [Visual Studio 2022+](https://visualstudio.microsoft.com/)
+- SQL Server / LocalDB
